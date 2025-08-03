@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dhafer’s Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        h1 { color: #2c3e50; }
+        p { font-size: 1.1em; line-height: 1.6; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Hello! I’m Dhafer</h1>
+    <p>I’m a web developer skilled in HTML, CSS, and JavaScript. Welcome to my portfolio website.</p>
+    <p>Languages: English and Arabic.</p>
+    <p>Check out my projects and feel free to <a href="mailto:dhaferselmi79@gmail.com">contact me</a>
+</body>
+</html>
