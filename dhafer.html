@@ -1,82 +1,129 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>    
-    </head>
-    <style>
-        .do{
-            color: red;
-            text-align: right;
-            text-decoration-line: line-through ;
-            margin-top: auto;
-        }
-        .ktiba{
-            color: tomato ;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-align: center;
-            background-color: black;
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Used Values</title>
+  <style>
+    .main-container {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+    .left-side, .right-side {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-content {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+    .card-content img {
+      width: 100px;
+      height: auto;
+      object-fit: cover;
+      margin-right: 10px;
+      border-radius: 4px;
+    }
+    .card-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .card-text h3, .card-text h4 {
+      margin: 0;
+    }
+    .card-text p {
+      color: #555;
+      margin-top: 5px;
+    }
+    .buy {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+    }
+    .buy:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>g
 
+  <div class="main-container">
 
-        }
-        .imgg{
-            max-height: 60vh;
-            width: 20vw;
-            cursor: crosshair;
-            display: -moz-inline-box;
-            margin: auto;
-        }
-        .card{
-            width: 400px;
-            margin: 1rem auto;
-            outline: 1px solid rgba(128,128,128,0.4);
-            box-shadow: 0px 2px 5px 0px rgba(128,128,128,0.7);
-            border-radius: 12px;
-            padding: 10px 14px;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            background-image: url("../nabil/Downloads/صورة\ قط.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 50%;
-        }
-        .ness{
-            color:crimson;
-        }
-        input[type="text"], input[type="password"]{
-            display:block;
-        }
-    </style>
-    <body>
-        <div class="card">
-            <label for="username">Username <span class="ness">*</span></label>
-            <input type="text" id="username" placeholder="username">
-            <label for="password">Password <span class="ness">*</span></label> 
-            <input type="password" id="password" placeholder="password"> 
-            <input type="radio">male
-            <input type="radio">helicopter
-            <input type="radio">female (7achekoum)
-            <select name="" id=""><option value="">do5an</option>
-            <option value="">zatla</option></select>
-            <input type="checkbox" name="ola" id="ola">
-            <select name="" id="">
-                <optgroup label="les pays">
-                    <option value="">Tunisie</option>
-                    <option value="">France</option>
-                    <option value="">Belgique</option>
-                    <option value="">Ghana</option>
-                </optgroup>
-            </select>
+    <div class="left-side">
+      <div class="card">
+        <div class="card-content">
+          <img src="c:/Users/nabil/Downloads/pc img.jpg" alt="Family PC" />
+          <div class="card-text">
+            <h3>Family PC</h3>
+            <p>PC Portable Gamer - MSI THIN 15 B12UC-1232XFR, I7, 16Go, RTX 3050, 15.6" FHD</p>
+            <h3>2000d</h3>
+            <a href="checkout.html" class="buy">Buy</a>
+          </div>
         </div>
-        <style></style>
-        <max-height:60></max-height:60>
-        <h1 class="ktiba">illegal stuff</h1>
-        <STYLE></STYLE>
-        <img src="../../../Users/nabil/Downloads/431473702_1799483050476220_4696500389382344122_n.jpg" class="imgg">
-        <select name="zatla" id="auto">d</select>
-        <h1 class="do">190d</h1>
-        <style></style>
-        <div></div>
-            
-    </body>
+      </div>
+
+      <div class="card">''
+        <div class="card-content">
+          <img src="c:/Users/nabil/OneDrive/Bureau/pc img/secondpc/secondpc.jpg" alt="Gaming PC" />
+          <div class="card-text">
+            <h3>PC Portable Gamer</h3>
+            <p>Pc Portable Gamer GIGABYTE G5KF5, I7-13620H, 16Go, RTX 4060 - 15.6" FHD 144Hz</p>
+            <h4>2669d</h4>
+            <a href="checkout.html" class="buy">Buy</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <img src="c:/Users/nabil/Downloads/pcthird.jpg" alt="Family PC" />
+          <div class="card-text">
+            <h3>PC Gamer Bureau</h3>
+            <p>Vibox I-24 Gaming PC Bundle • AMD Ryzen 3 3200 G Tunisia | Ubuy</p>
+            <h4>1999d</h4>
+            <a href="checkout.html" class="buy">Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <div class="card">
+        <div class="card-content">
+          <img src="c:/Users/nabil/Downloads/5.jpg" alt="stream pc" />
+          <div class="card-text">
+            <h3>Pc strep</h3>
+            <h3>Gaming PC- Ryzen 7, RTX 3060, 16GB RAM, Tunisia | Ubuy</h3>
+            <h4>2600</h4>
+            <a href="checkout.html" class="buy">Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
 
 
 
