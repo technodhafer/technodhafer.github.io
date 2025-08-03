@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Projects</title>
+  <style>
+    .main-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+    }
+    .card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    .card-content img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-text {
+      text-align: center;
+    }
+    .card-text h3, .card-text h4 {
+      margin: 10px 0 5px;
+    }
+    .card-text p {
+      color: #555;
+      font-size: 0.95em;
+    }
+    .buy {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+    }
+    .buy:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="text-align:center;">My PC Shop</h1>
+  <div class="main-container">
+
+    <div class="card">
+      <div class="card-content">
+        <img src="images/pc1.jpg" alt="Family PC" />
+        <div class="card-text">
+          <h3>Family PC</h3>
+          <p>MSI THIN 15 B12UC-1232XFR, I7, 16Go, RTX 3050</p>
+          <h4>2000 Dinar</h4>
+          <a href="checkout.html" class="buy">Buy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="images/pc2.jpg" alt="Gaming PC" />
+        <div class="card-text">
+          <h3>Gaming Laptop</h3>
+          <p>GIGABYTE G5KF5, I7-13620H, 16Go, RTX 4060</p>
+          <h4>2669 Dinar</h4>
+          <a href="checkout.html" class="buy">Buy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="images/pc3.jpg" alt="Desktop PC" />
+        <div class="card-text">
+          <h3>Desktop Gaming PC</h3>
+          <p>Vibox I-24 • AMD Ryzen 3 3200 G • Bundle</p>
+          <h4>1999 Dinar</h4>
+          <a href="checkout.html" class="buy">Buy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <img src="images/pc4.jpg" alt="Streaming PC" />
+        <div class="card-text">
+          <h3>Streaming PC</h3>
+          <p>Ryzen 7, RTX 3060, 16GB RAM</p>
+          <h4>2600 Dinar</h4>
+          <a href="checkout.html" class="buy">Buy</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
